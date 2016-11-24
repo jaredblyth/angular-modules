@@ -1,0 +1,3 @@
+This set of Angular modules includes useful directives (custom HTML elements), factories and filters for use in an Angular web application.
+The modules are ready to be used 'out-of-the-box' without the need for custom configuration - they just need to be included in the Angular module configuration (i.e. the standard process).
+These modules are all standalone and do not depend on each other - so only the required modules need to be included in any application.
