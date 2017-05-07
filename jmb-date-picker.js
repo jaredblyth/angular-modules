@@ -92,7 +92,7 @@ datePicker.directive('jmbDatePicker', function($parse) {
                     weeks.push(week);
                 }
                 scope.weeks = weeks; // Week Array
-                scope.displayDate = new Date(date.getFullYear(), date.getMonth() - 1, date.getDate()).toDateString().split(' ')[1] + ' ' + date.getFullYear(); // Current Month / Year
+                scope.displayDate = new Date(date.getFullYear(), date.getMonth() - 1, date.getDate()).toDateString().split(' ')[1] + ' ' + new Date(date.getFullYear(), date.getMonth() - 1, date.getDate()).toDateString().split(' ')[3]; // Current Month / Year
             }
             scope.$watch('dateValue', function(val) {
                 calculateCalendar(scope.dateValue);
