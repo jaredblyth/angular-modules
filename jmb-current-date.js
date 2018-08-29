@@ -21,6 +21,6 @@
                 return $filter('date')(new Date(), 'yyyy');
     
             };
-        }]);
+        }])
     
 })();
